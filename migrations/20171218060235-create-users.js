@@ -20,7 +20,8 @@ exports.up = function (db) {
         {
             id: {
                 type: 'int',
-                primaryKey: true
+                primaryKey: true,
+                autoIncrement: true
             },
             name: 'string'
         }
