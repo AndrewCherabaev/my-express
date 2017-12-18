@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "database": "express",
+        "schema": "express"
+    },
+    "test": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "database": "express",
+        "schema": "express"
+    },
+    "prod": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "database": "express",
+        "schema": "express"
+    }
+}
